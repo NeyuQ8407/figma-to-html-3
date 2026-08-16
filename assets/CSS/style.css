@@ -43,6 +43,17 @@ a {
   opacity: 0.7;
 }
 
+.heading-lv2 {
+  color: #10375c;
+  text-align: center;
+  font-family: Sora;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 120% */
+  letter-spacing: -1px;
+}
+
 /* ===========================================================Header=========================================================== */
 header {
   padding-top: 30px;
@@ -153,7 +164,6 @@ header {
   object-fit: cover;
   border-radius: 6px;
   z-index: 1;
-
 }
 
 .hero__media--img2 {
@@ -163,5 +173,89 @@ header {
   border-radius: 0 6px 6px 0;
   position: absolute;
   top: 45px;
-  
+}
+
+/* ===========================================================Services=========================================================== */
+.services {
+  margin-top: 170px;
+}
+
+.services__desc {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67; /* 166.667% */
+  max-width: 468px;
+  margin: 18px auto 0px;
+}
+
+.services-bottom {
+  display: flex;
+  margin-top: 70px;
+}
+
+.services__img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.services-list {
+  margin-top: 35px;
+  margin-left: 130px;
+}
+
+.services-item {
+  padding-top: 21px;
+  width: 470px;
+  height: 128px;
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  transition: 0.25s;
+}
+
+.services-item:hover {
+  position: relative;
+  box-shadow: 0 14px 28px 0 rgba(0, 0, 0, 0.05);
+}
+
+.services-item:hover .services-item__icon {
+  color: #fff;
+  background: #2e80ce;
+}
+
+.services-item__icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background: #eff6fd;
+  color: #10375c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-right: 19px;
+  transition: 0.25s;
+}
+
+.services-item__content--title {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.services-item__content--desc {
+  margin-top: 8px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75; /* 175% */
+  max-width: 350px;
+}
+
+.services__btn {
+  margin-top: 55px;
 }
