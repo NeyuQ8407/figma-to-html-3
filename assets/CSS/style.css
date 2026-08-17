@@ -464,3 +464,60 @@ header {
   margin-top: 38px;
   justify-content: center;
 }
+
+/* ===========================================================App=========================================================== */
+.app {
+  margin-top: 265px;
+}
+
+.app__body {
+  display: flex;
+  border-radius: 4px;
+  background: #2e80ce;
+  position: relative;
+  width: 1170px;
+  height: 427px;
+}
+
+.app__phone {
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
+
+.app__content {
+  margin-left: 514px;
+  min-width: 586px;
+}
+
+.app__heading,
+.app__desc {
+  color: #fff;
+  text-align: left;
+}
+
+.app__heading {
+  max-width: 489px;
+  margin-top: 76px;
+}
+
+.app__desc {
+  max-width: 586px;
+}
+
+.app__download {
+  margin-top: 38px;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+}
+
+.app__download--icon {
+  width: 135px;
+  height: 40px;
+  stroke-width: 1px;
+  stroke: #fff;
+}
