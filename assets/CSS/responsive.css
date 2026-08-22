@@ -93,7 +93,7 @@
     order: 2;
     width: 80%;
     text-align: center;
-    margin: 22px auto;
+    align-self: center;
   }
   .hero__media {
     order: 1;
@@ -110,12 +110,42 @@
   .services__img {
     width: 100%;
   }
-  .services-list {
-    text-align: center;
-  }
   .services-item {
     width: 90%;
     text-align: start;
+  }
+
+  /* work list */
+  .works-list {
+    flex-direction: column;
+  }
+  .works-item {
+    width: 100%;
+  }
+
+  /* about */
+  .about__body {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .about__media {
+    width: 100%;
+  }
+  .about__img--big {
+    width: 100%;
+    border-radius: 15px;
+    margin: 25px auto;
+  }
+  .about__img--small {
+    display: none;
+  }
+  .about__content {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .about__heading, .about__desc {
+    text-align: center;
   }
 }
 
