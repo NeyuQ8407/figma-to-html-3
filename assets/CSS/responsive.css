@@ -1,8 +1,8 @@
 /* PC */
 @media (min-width: 992px) {
-    .mobile-header {
-        display: none;
-    }
+  .mobile-header {
+    display: none;
+  }
 }
 
 /* Tablet & mobile */
@@ -44,7 +44,7 @@
     opacity: 1;
     visibility: visible;
   }
-  
+
   /* Menu drawer */
   .menu-drawer {
     position: fixed;
@@ -83,6 +83,40 @@
   .navbar__link:hover {
     background-color: #00ffff37;
   }
+
+  /* Hero */
+  .hero {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .hero__content {
+    order: 2;
+    width: 80%;
+    text-align: center;
+    margin: 22px auto;
+  }
+  .hero__media {
+    order: 1;
+  }
+  .hero__cta {
+    justify-content: center;
+  }
+
+  /* Services */
+  .services-bottom {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .services__img {
+    width: 100%;
+  }
+  .services-list {
+    text-align: center;
+  }
+  .services-item {
+    width: 90%;
+    text-align: start;
+  }
 }
 
 /* Tablet */
@@ -93,6 +127,6 @@
 @media (max-width: 767.98px) {
 }
 
-.hero, .footer, main {
-    display: none;
+.footer {
+  display: none;
 }
