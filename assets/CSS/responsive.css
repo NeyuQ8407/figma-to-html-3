@@ -147,6 +147,27 @@
   .about__heading, .about__desc {
     text-align: center;
   }
+
+  /* Team list */
+  .team__list {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+  }
+  .team__item--img {
+    margin: 0 auto;
+  }
+
+  /* App */
+  .app__phone {
+    display: none;
+  }
+  .app__content {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .app__desc {
+    margin: 18px 0;
+  }
 }
 
 /* Tablet */
